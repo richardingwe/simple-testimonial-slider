@@ -1,5 +1,6 @@
 #calendar-slider {
   background-color: #d1f5f8;
+  position: relative;
 }
 
 #calendar-slider .card {
@@ -62,13 +63,15 @@
 }
 
 #calendar-slider .carousel-control-prev {
-  left: 40%;
-  top: 110%;
+  left: -122px;
+  position: absolute;
+  top: -50%;
 }
 
 #calendar-slider .carousel-control-next {
-  right: 40%;
-  top: 110%;
+  position: absolute;
+  right: -112px;
+  top: -50%;
 }
 
 #calendar-slider .midline {
@@ -97,12 +100,12 @@
     margin: 0 auto;
   }
   #calendar-slider .carousel-control-prev {
-    left: 35%;
-    top: 105%;
+    left: -2%;
+    top: -5%;
   }
   #calendar-slider .carousel-control-next {
-    right: 35%;
-    top: 105%;
+    right: -2%;
+    top: -5%;
   }
   #calendar-slider .card .carousel-caption h3 {
     margin-top: 0;
@@ -128,12 +131,12 @@
     text-align: center;
   }
   #calendar-slider .carousel-control-prev {
-    left: 35%;
-    top: 105%;
+    left: -10%;
+    top: 5%;
   }
   #calendar-slider .carousel-control-next {
-    right: 35%;
-    top: 105%;
+    right: -10%;
+    top: 5%;
   }
 }
 

@@ -1,5 +1,6 @@
 #calendar-slider {
 	background-color: rgb(209, 245, 248);
+	position: relative;
 	.card {
 		margin: 0 auto;
 		border: none;
@@ -48,12 +49,15 @@
 		opacity: 0.85;
 	}
 	.carousel-control-prev {
-		left: 40%;
-		top: 110%;
+		left: -122px;
+		position: absolute;
+		top: -50%;
+		// transform: translate(50%);
 	}
 	.carousel-control-next {
-		right: 40%;
-		top: 110%;
+		position: absolute;
+		right: -112px;
+		top: -50%;
 	}
 	.midline {
 		width: 60px;
@@ -78,12 +82,12 @@
 			margin: 0 auto;
 		}
 		.carousel-control-prev {
-			left: 35%;
-			top: 105%;
+			left: -2%;
+			top: -5%;
 		}
 		.carousel-control-next {
-			right: 35%;
-			top: 105%;
+			right: -2%;
+			top: -5%;
 		}
 		.card .carousel-caption h3 {
 			margin-top: 0;
@@ -108,12 +112,12 @@
 			text-align: center;
 		}
 		.carousel-control-prev {
-			left: 35%;
-			top: 105%;
+			left: -10%;
+			top: 5%;
 		}
 		.carousel-control-next {
-			right: 35%;
-			top: 105%;
+			right: -10%;
+			top: 5%;
 		}
 	}
 	@media (min-width: 767px) and (max-width: 991px) {
