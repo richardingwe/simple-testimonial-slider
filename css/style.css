@@ -1,18 +1,18 @@
-.card {
+#calendar-slider {
+  background-color: #d1f5f8;
+}
+
+#calendar-slider .card {
   margin: 0 auto;
   border: none;
   background-color: transparent !important;
 }
 
-.slider {
-  background-color: #d1f5f8;
-}
-
-.card .carousel-item {
+#calendar-slider .card .carousel-item {
   min-height: 230px;
 }
 
-.card .carousel-caption {
+#calendar-slider .card .carousel-caption {
   padding: 0;
   right: 15px;
   left: 15px;
@@ -22,7 +22,7 @@
   padding: 15px;
 }
 
-.card .carousel-caption .col-sm-3 {
+#calendar-slider .card .carousel-caption .col-sm-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,18 +31,18 @@
           align-items: center;
 }
 
-.card .carousel-caption .col-sm-9 {
+#calendar-slider .card .carousel-caption .col-sm-9 {
   text-align: left;
 }
 
-.card .carousel-control-prev,
-.card .carousel-control-next {
+#calendar-slider .card .carousel-control-prev,
+#calendar-slider .card .carousel-control-next {
   color: #3d3d3d !important;
   opacity: 1 !important;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+#calendar-slider .carousel-control-prev-icon,
+#calendar-slider .carousel-control-next-icon {
   background-image: none;
   color: #2b2b2b;
   font-size: 14px;
@@ -51,55 +51,55 @@
   width: 32px;
 }
 
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
+#calendar-slider .carousel-control-prev-icon:hover,
+#calendar-slider .carousel-control-next-icon:hover {
   opacity: 0.85;
 }
 
-.carousel-control-prev {
+#calendar-slider .carousel-control-prev {
   left: 40%;
   top: 110%;
 }
 
-.carousel-control-next {
+#calendar-slider .carousel-control-next {
   right: 40%;
   top: 110%;
 }
 
-.midline {
+#calendar-slider .midline {
   width: 60px;
   border-top: 1px solid #d43025;
 }
 
-.carousel-caption h2 {
+#calendar-slider .carousel-caption h2 {
   font-size: 14px;
 }
 
-.carousel-caption h2 span {
+#calendar-slider .carousel-caption h2 span {
   color: #cd3a54;
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
-  .carousel-caption {
+  #calendar-slider .carousel-caption {
     position: relative;
   }
-  .card .carousel-caption {
+  #calendar-slider .card .carousel-caption {
     left: 0;
     top: 0;
     margin-bottom: 15px;
   }
-  .card .carousel-caption img {
+  #calendar-slider .card .carousel-caption img {
     margin: 0 auto;
   }
-  .carousel-control-prev {
+  #calendar-slider .carousel-control-prev {
     left: 35%;
     top: 105%;
   }
-  .carousel-control-next {
+  #calendar-slider .carousel-control-next {
     right: 35%;
     top: 105%;
   }
-  .card .carousel-caption h3 {
+  #calendar-slider .card .carousel-caption h3 {
     margin-top: 0;
     font-size: 16px;
     font-weight: 700;
@@ -107,40 +107,40 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .carousel-caption {
+  #calendar-slider .carousel-caption {
     position: relative;
   }
-  .card .carousel-caption {
+  #calendar-slider .card .carousel-caption {
     left: 0;
     top: 0;
     margin-bottom: 15px;
   }
-  .card .carousel-caption img {
+  #calendar-slider .card .carousel-caption img {
     margin: 0 auto;
   }
-  .card .carousel-caption h3,
-  .card .carousel-caption small {
+  #calendar-slider .card .carousel-caption h3,
+  #calendar-slider .card .carousel-caption small {
     text-align: center;
   }
-  .carousel-control-prev {
+  #calendar-slider .carousel-control-prev {
     left: 35%;
     top: 105%;
   }
-  .carousel-control-next {
+  #calendar-slider .carousel-control-next {
     right: 35%;
     top: 105%;
   }
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
-  .card .carousel-caption h3 {
+  #calendar-slider .card .carousel-caption h3 {
     margin-top: 0;
     font-size: 16px;
     font-weight: 700;
   }
 }
 
-.item {
+#calendar-slider .item {
   margin: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,24 +157,24 @@
           justify-content: center;
 }
 
-.owl-carousel .item img {
+#calendar-slider .owl-carousel .item img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.owl-carousel {
+#calendar-slider .owl-carousel {
   margin-bottom: 15px;
   color: #424242;
   position: relative;
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl {
+#calendar-slider .container,
+#calendar-slider .container-fluid,
+#calendar-slider .container-lg,
+#calendar-slider .container-md,
+#calendar-slider .container-sm,
+#calendar-slider .container-xl {
   width: 100%;
   padding-right: 0;
   padding-left: 15px;
@@ -182,7 +182,7 @@
   margin-left: auto;
 }
 
-.link {
+#calendar-slider .link {
   padding: .5rem 2rem;
   background-color: #4b4b4b;
   text-decoration: none;
@@ -193,7 +193,7 @@
   border-radius: 3rem;
 }
 
-.link:hover {
+#calendar-slider .link:hover {
   padding: .5rem 2rem;
   background-color: #4b4b4b;
   text-decoration: none;
@@ -206,27 +206,27 @@
   transition: all 300ms ease;
 }
 
-.hr1 {
+#calendar-slider .hr1 {
   width: 30px;
   border: 2px solid gray;
   margin-bottom: 5rem;
 }
 
-.hr2 {
+#calendar-slider .hr2 {
   width: 30px;
   border: 2px solid gray;
   margin-bottom: 1rem;
   margin-top: 0;
 }
 
-.item p {
+#calendar-slider .item p {
   font-weight: bold;
   font-size: 1.2rem;
   margin-top: 0;
   margin-bottom: 5px;
 }
 
-.item span {
+#calendar-slider .item span {
   font-size: .9rem;
   font-weight: bold;
 }
