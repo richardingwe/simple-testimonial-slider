@@ -1,53 +1,130 @@
-.stretch-card > .card {
-	width: 100%;
-	min-width: 100%;
+.card {
+	margin: 0 auto;
+	border: none;
+	background-color: transparent !important;
 }
 
-body {
-	background-color: #f9f9fa;
+.slider {
+	background-color: rgb(209, 245, 248);
 }
-#page-content {
-	background-color: rgb(182, 218, 215);
+.card .carousel-item {
+	min-height: 230px;
+	// height: 200px;
 }
-.flex {
-	-webkit-box-flex: 1;
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
+.card .carousel-caption {
+	padding: 0;
+	right: 15px;
+	left: 15px;
+	top: 15px;
+	color: #3d3d3d;
+	// border: 1px solid #ccc;
+	min-height: 175px;
+	padding: 15px;
 }
-
-@media (max-width: 991.98px) {
-	.padding {
-		padding: 1.5rem;
+.card .carousel-caption .col-sm-3 {
+	display: flex;
+	align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+	text-align: left;
+}
+.card .carousel-control-prev,
+.card .carousel-control-next {
+	color: #3d3d3d !important;
+	opacity: 1 !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-image: none;
+	color: rgb(43, 43, 43);
+	font-size: 14px;
+	// background-color: #ffffff;
+	height: 32px;
+	line-height: 32px;
+	width: 32px;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+	opacity: 0.85;
+}
+.carousel-control-prev {
+	left: 40%;
+	top: 110%;
+}
+.carousel-control-next {
+	right: 40%;
+	top: 110%;
+}
+.midline {
+	width: 60px;
+	border-top: 1px solid #d43025;
+}
+.carousel-caption h2 {
+	font-size: 14px;
+}
+.carousel-caption h2 span {
+	color: #cd3a54;
+}
+@media (min-width: 320px) and (max-width: 575px) {
+	.carousel-caption {
+		position: relative;
+	}
+	.card .carousel-caption {
+		left: 0;
+		top: 0;
+		margin-bottom: 15px;
+	}
+	.card .carousel-caption img {
+		margin: 0 auto;
+	}
+	.carousel-control-prev {
+		left: 35%;
+		top: 105%;
+	}
+	.carousel-control-next {
+		right: 35%;
+		top: 105%;
+	}
+	.card .carousel-caption h3 {
+		margin-top: 0;
+		font-size: 16px;
+		font-weight: 700;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	.carousel-caption {
+		position: relative;
+	}
+	.card .carousel-caption {
+		left: 0;
+		top: 0;
+		margin-bottom: 15px;
+	}
+	.card .carousel-caption img {
+		margin: 0 auto;
+	}
+	.card .carousel-caption h3,
+	.card .carousel-caption small {
+		text-align: center;
+	}
+	.carousel-control-prev {
+		left: 35%;
+		top: 105%;
+	}
+	.carousel-control-next {
+		right: 35%;
+		top: 105%;
+	}
+}
+@media (min-width: 767px) and (max-width: 991px) {
+	.card .carousel-caption h3 {
+		margin-top: 0;
+		font-size: 16px;
+		font-weight: 700;
 	}
 }
 
-@media (max-width: 767.98px) {
-	.padding {
-		padding: 1rem;
-	}
-	.owl-theme .owl-controls .owl-page span {
-		display: block;
-		width: 10px;
-		height: 5px;
-		margin: 5px 7px;
-		filter: Alpha(Opacity=50);
-		opacity: .5;
-		-webkit-border-radius: 20px;
-		-moz-border-radius: 20px;
-		border-radius: 0px;
-		background: #869791;
-	}
-}
-/* .owl-carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-.padding {
-	padding: 3rem;
-}
-
-.owl-carousel .item {
+.item {
 	margin: 3px;
 	display: flex;
 	flex-direction: column;
@@ -121,54 +198,4 @@ body {
 .item span {
 	font-size: .9rem;
 	font-weight: bold;
-}
-.owl-theme .owl-controls .owl-page span {
-	width: 45px;
-	height: 5px;
-}
-.owl-prev,
-.owl-next {
-	width: 15px;
-	height: 100px;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	display: block !important;
-	border: 0px solid black;
-}
-.owl-prev {
-	left: -20px;
-}
-.owl-next {
-	right: -20px;
-}
-.owl-prev i,
-.owl-next i {
-	transform: none;
-	font-size: 2rem;
-	color: rgb(66, 66, 66);
-}
-.owl-theme .owl-controls .owl-buttons div {
-	display: inline-block;
-	zoom: 1;
-	*display: inline;
-	margin: 5px;
-	padding: 3px 10px;
-	font-size: 12px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 0;
-	background: none;
-	filter: Alpha(Opacity=50);
-	opacity: .5;
-}
-
-@media (max-width: 767.98px) {
-	.owl-theme .owl-controls .owl-page span {
-		width: 10px;
-	}
-	.owl-prev,
-	.owl-next {
-		display: none !important;
-	}
 }
